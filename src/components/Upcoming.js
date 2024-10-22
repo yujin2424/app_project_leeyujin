@@ -26,7 +26,7 @@ const Upcoming = () => {
    }
    useEffect(()=>{
       getMovies();
-   }, []);
+   }, [setLoading]);
 
    /* const getRandomMovie = () =>{
       const randomIndex=Math.floor(Math.random() * upcomingMovies.length);
