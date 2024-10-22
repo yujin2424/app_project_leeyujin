@@ -1,0 +1,248 @@
+*{margin: 0; padding: 0;}
+nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   background: rgba(0,0,0,.7);
+   position: fixed;
+   top:0;
+   left: 0;
+   width: 100%;
+   z-index: 9999999;
+   box-sizing: border-box;
+   .logo{
+      /* width: 36px;
+      height: 36px; */
+   
+      a{text-decoration: none;
+         width: 100%;
+         height: 100%;
+         font-size: 36px;
+         color: #fff;
+         img{
+            width: 100%;
+            height: 100%
+         }
+      }
+   }
+   ul{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      li{
+         a{
+            text-decoration: none; 
+            padding: 10px;
+            color: #e6e6e6;
+            font-size: 14px;
+         }
+      }
+   }
+}
+.footer{
+   width: 100%;
+   background: #000;
+   color: #fff;
+   .innerFooter{
+      width: 100%;
+      max-width: 1000px;
+      padding:30px 0;
+      margin: 0 auto;
+      display: flex;
+      .f-logo{ margin-right: 20px;
+         a{
+            font-size: 52px;
+            color: rgba(255,255,255,.7);
+            &.addColor{
+               color: rgba(255,255,255,1)
+            }
+         }
+      }
+      .copy{
+         p{
+            font-size: 14px;
+            color: rgba(255,255,255,.5);
+            &.addColor{
+               color: rgba(255,255,255,1)
+            }
+         }
+
+      }
+   }
+}
+.aboutWrap{
+   max-width: 1000px;
+   width: 100%;
+   margin: 20px auto 50px auto;
+   padding: 0 30px;
+   box-sizing: border-box;
+   .aboutTitle{
+      text-align: center;
+      color: #6a6a6a;
+      margin-bottom: 20px;
+   }
+   .aboutload{
+      text-align: center;
+      font-size: 56px;
+   }
+   .aboutUser{
+      .box{
+         text-align: center;
+         
+         .aboutImg{
+            width: 50%;
+         }
+         .overAndaver{
+            width: 700px;
+            box-sizing: border-box;
+            padding: 30px;
+            margin: 20px auto;
+            border-radius: 20px;
+            box-shadow: 0 0 20px #000;
+            text-align: left;
+            .overview{
+               width:600px;
+               overflow: hidden;
+               text-overflow: ellipsis;
+               display: -webkit-box;
+               -webkit-line-clamp: 3;
+               -webkit-box-orient: vertical;
+               margin-bottom: 30px;
+
+            }
+            .tagline{
+               margin-bottom: 10px;
+            }
+            .voteAverage{
+               margin-bottom: 10px;
+            }
+  
+         }
+      }
+   }
+}
+.bold{
+   font-weight: bold;
+   color: #000;
+}
+.usersWrap{
+   padding: 150px 20px;
+   h1{
+      text-align: center;
+   }
+   .userCard{
+      margin-top: 20px;
+      width: 100%;
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 30px;
+      box-sizing: border-box; /* 패딩 넓이가 클 때 텍스트에 넓이 맞게 조정 */
+      .card{
+         background: #ddd;
+         padding: 30px;
+         margin-bottom: 20px;
+         border-radius: 20px 0 20px 0;
+         box-shadow: 0 0 30px #000;
+         .cardBody{
+            font-size: 1.2rem;
+            a{
+               text-decoration: none;
+               color: #666;
+            }
+         }
+      }
+   }
+}
+.userWrap{
+   margin-top: 150px;
+   margin-bottom: 150px;
+   padding: 0 30px 100px 30px;
+   box-sizing: border-box;
+   h1{
+      margin-bottom: 50px;
+   }
+   .detail{
+      padding: 50px;
+      box-sizing: border-box;
+      background: white;
+      box-shadow: 0 0 30px;
+      .loading{
+         font-size: 1.6rem;
+      }
+      .userDetail{
+         p{
+            line-height: 300%;
+            span{
+               color: #666;
+            }
+         }
+      }
+   }
+}
+
+.eventsWrap{
+      padding: 150px 30px;
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto;
+   h2{
+      padding-bottom: 10px;
+      border-bottom: 1px solid #444;
+   }
+   h3{padding: 20px 0 0 0;}
+   .eventlistWrap{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .appEvent{
+         width: 32%;
+         .eventImg{
+            img{width: 100%;}
+   
+            }
+            .eventDate{
+               font-size: 0.8rem;
+               color: #666;
+            }   
+      }
+   }
+   img{width: 100%; margin-top: 50px;}
+}
+.bannerWrap{
+   width: 100%;
+   text-align: center;
+   background: #ffebdf;
+   position: relative;
+   height: 240px;
+   img{
+      position: absolute;
+      top: -25px;
+      left: 25%;
+      transform: translateX(-50%, -20%);
+   }
+}
+
+.eventWrap{
+   padding: 150px 30px;
+   box-sizing: border-box;
+
+   .addEvent{
+      .box{
+         width: 100%;
+         img{
+            width: 100%;
+            margin-bottom: 30px;
+         }
+      }
+   }
+}
+.aboutWrap{
+   margin-top: 500px;
+   max-width: 2000px;
+   margin: 0 auto;
+
+   .aboutTitle{
+       font-size: 1.2em;
+   }
+}

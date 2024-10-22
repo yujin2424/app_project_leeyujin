@@ -1,0 +1,70 @@
+.movies{
+   padding-top: 150px;
+   margin-bottom: 250px;
+   padding-left: 20px;
+   padding-right: 20px;
+   box-sizing: border-box;
+   h1{
+      text-align: center;
+   }
+   .movieForm{
+      width: 100%;
+      max-width: 1000px;
+      margin: 20px auto;
+      border: 5px solid #ddd;
+      padding: 20px;
+      box-sizing: border-box;
+        input{
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-sizing: border-box;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        button{
+            background: #177ebe;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #fff;
+            width: 100%;
+            border: none;
+            
+        }
+   }
+   .movie{
+      width: 100%;
+      max-width: 1000px;
+      margin: 20px auto;
+      border: 1px solid #177ebe;
+      padding:10px 20px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      .titleAndyear{
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+      }
+      .movie-title{
+        margin-right: 10px;
+      }
+      .movie-year{
+         color: #f00;
+         font-size: .8rem;
+      }
+      .deleteBtn{
+        button{color: red;
+                border: none;
+                background: none;
+                cursor: pointer;
+        }
+      }
+   }
+}
+    .strongText{
+        width: 100%;
+        max-width: 1000px;
+        margin: 10px auto;
+        font-size: 1.4rem;
+        color: #ccc;
+    }
