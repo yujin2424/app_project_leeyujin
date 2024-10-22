@@ -3,13 +3,13 @@ import axios from 'axios';
 import {useParams} from 'react-router-dom';
 
 const About = () => {
-   const APIKEY= process.env.REACT_APP_API_KEY;
+   /* const APIKEY= process.env.REACT_APP_API_KEY; */
    const {id} = useParams();
    const [loading, setLoading]=useState(true);
    const [appM, setAppM]=useState(null);
     
    useEffect(() =>{
-        axios.get(`https://api.themoviedb.org/3/movie/${id}?api_key=${APIKEY}&language=ko-KR`).then(res => {
+        axios.get(`https://api.themoviedb.org/3/movie/546c72b99cf64514c2c03c7ef473011b&language=ko-KR`).then(res => {
             console.log(res.data); 
          setAppM(res.data);
          setLoading(false);

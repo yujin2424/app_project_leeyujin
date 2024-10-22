@@ -4,11 +4,11 @@ import {Link, useParams} from 'react-router-dom';
 
 
 const Events = () => {
-   const APIKEY= process.env.REACT_APP_API_KEY;
+   /* const APIKEY= process.env.REACT_APP_API_KEY; */
    const [events, setEvents] = useState([]);
    const [appMovie, setAppMovie] = useState([]);
    useEffect(()=>{
-      axios.get(`https://api.themoviedb.org/3/movie/now_playing?api_key=${APIKEY}&language=ko-KR`).then(response => {
+      axios.get(`https://api.themoviedb.org/3/movie/now_playing?api_key=546c72b99cf64514c2c03c7ef473011b&language=ko-KR`).then(response => {
          setAppMovie(response.data.results)
          console.log(response.data.results)
       })

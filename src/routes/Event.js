@@ -3,12 +3,12 @@ import axios from 'axios';
 import {useParams} from 'react-router-dom';
 
 const Event = () => {
-   const APIKEY=process.env.REACT_APP_API_KEY;
+   /* const APIKEY=process.env.REACT_APP_API_KEY; */
    const {id}=useParams();
    const [eventMovie, setEventMovie]=useState(null);
    const [loading, setLoading]=useState(true);
    useEffect(()=>{
-      axios.get(`https://api.themoviedb.org/3/movie/${id}?api_key=${APIKEY}&language=ko-KR`).then(response => {
+      axios.get(`https://api.themoviedb.org/3/movie/${id}?api_key=546c72b99cf64514c2c03c7ef473011b&language=ko-KR`).then(response => {
          setEventMovie(response.data)
          console.log(response.data)
          setLoading(false)
