@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/app_project_leeyujin/static/css/main.473d7068.css",
-    "main.js": "/app_project_leeyujin/static/js/main.ead9eafc.js",
+    "main.js": "/app_project_leeyujin/static/js/main.ab51d25d.js",
     "index.html": "/app_project_leeyujin/index.html",
     "main.473d7068.css.map": "/app_project_leeyujin/static/css/main.473d7068.css.map",
-    "main.ead9eafc.js.map": "/app_project_leeyujin/static/js/main.ead9eafc.js.map"
+    "main.ab51d25d.js.map": "/app_project_leeyujin/static/js/main.ab51d25d.js.map"
   },
   "entrypoints": [
     "static/css/main.473d7068.css",
-    "static/js/main.ead9eafc.js"
+    "static/js/main.ab51d25d.js"
   ]
 }
